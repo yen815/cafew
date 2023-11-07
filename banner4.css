@@ -6,8 +6,8 @@
 
 
 .yeeun {
-  width: 800px;
-  height: 350px;
+  width: 1440px;
+  height: 590px;
   margin: 0 auto; 
   display: flex;
   background: #282725;
@@ -29,9 +29,15 @@
 }
 
 .logo img{
-  width: 20px;
+  width: 45px;
   margin: 4px 0;
 }
+
+.logo img:first-child, .logo img:last-child {
+  width: 30px;
+  margin-left: 8px;
+}
+
 
 .BG{
   /* background-image: ; */
